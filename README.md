@@ -1,10 +1,9 @@
 ### VESSEL ~ A Simple Ollama Agent Framework
 
-- vessel.py is the main abstraction that can run any Ollama based agent
-- Just define tools in agent.py for vessel to use
-- Run vessel.py for streaming CLI chat interface
-- No Python dependencies. Only requires local Ollama server
-- Vessel is easily customizable (~110 SLOC) for any kind of use
+- vessel.py is the main abstraction that runs the agentic loop using Ollama
+- Define agent configurations and tools in agent.py for your use case
+- Run vessel.py for streaming CLI chat interface or customize it for your needs
+- vessel.py is ~110 SLOC. Only requires local Ollama server. No Python dependencies
 
 ### Fashion Retail Store Example
 ```bash
